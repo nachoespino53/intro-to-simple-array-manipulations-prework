@@ -53,5 +53,6 @@ def using_delete(array, string)
   if index == nil do
     return array
   end
-  array.delete(index)
+  array.delete(string)
+  
 end
