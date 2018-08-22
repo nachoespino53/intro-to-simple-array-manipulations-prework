@@ -10,11 +10,11 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, arg)
+def pop_with_args(array)
   popped = []
-  for i in 1..arg do
-    temp_element = array.pop
-    popped.push(temp_element)
+  for i in 1..2 do
+    temp = array.pop
+    popped.push(temp)
   end
   popped
 end
