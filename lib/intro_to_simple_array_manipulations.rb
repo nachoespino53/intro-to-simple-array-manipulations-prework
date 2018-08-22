@@ -45,5 +45,9 @@ def using_uniq(array)
 end
 
 def uning_flatten(array)
+  array.flatten
+end
+
+def using_delete(array, string)
   
 end
