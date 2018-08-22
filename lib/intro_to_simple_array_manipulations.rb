@@ -49,12 +49,7 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  index = array.index(string)
-  if index == nil
-    return array
-  end
   array.delete(string)
-  array.insert(index, string)
 end
 
 def using_delete_at(array, int)
