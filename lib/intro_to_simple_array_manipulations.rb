@@ -54,5 +54,5 @@ def using_delete(array, string)
     return array
   end
   array.delete(string)
-  
+  array.insert(index, string)
 end
