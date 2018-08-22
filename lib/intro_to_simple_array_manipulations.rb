@@ -16,5 +16,5 @@ def pop_with_args(array)
     temp = array.pop
     popped.push(temp)
   end
-  popped
+  popped.reverse
 end
