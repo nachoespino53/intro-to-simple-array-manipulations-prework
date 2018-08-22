@@ -18,3 +18,16 @@ def pop_with_args(array)
   end
   popped.reverse
 end
+
+def using_shift(array)
+  array.shift
+end
+
+def shift_with_args(array)
+  shifted = []
+  for i in 1..2
+  temp = array.shift
+  shifted.push(temp)
+  end
+  shifted
+end
