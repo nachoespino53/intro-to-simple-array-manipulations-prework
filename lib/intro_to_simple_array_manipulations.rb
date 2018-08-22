@@ -12,7 +12,9 @@ end
 
 def pop_with_args(array, arg)
   popped = []
-  popped.push(array.pop)
-  popped.push(array.pop)
+  for i in 1..arg do
+    temp_element = array.pop
+    popped.push(temp_element)
+  end
   popped
 end
