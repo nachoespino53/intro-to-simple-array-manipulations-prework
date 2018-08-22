@@ -49,5 +49,9 @@ def uning_flatten(array)
 end
 
 def using_delete(array, string)
-  
+  index = array.index(string)
+  if index == nil do
+    return array
+  end
+  array.delete(index)
 end
